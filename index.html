@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="name-inp" type="text" placeholder="Tên mặt hàng" />
+    <input id="quantity-inp" type="number" value="1" min="1" placeholder="Số lượng" />
+    <input type="button" value="Thêm vào giỏ" onclick="onAddClicked()" />
+    <br />
+    <input id="name-edt-inp" type="text" placeholder="Tên mặt hàng" />
+    <input id="quantity-edt-inp" type="number" value="1" min="1" placeholder="Số lượng" />
+    <input type="button" value="Sửa mặt hàng" onclick="onEditClicked()" />
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Tên mặt hàng</th>
+                <th>Số lượng</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+    <script src="./main.js"></script>
+</html>
